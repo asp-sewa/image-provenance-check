@@ -1,0 +1,3 @@
+# Required
+pillow>=9.0
+# Optional external tools (not pip): exiftool, tesseract

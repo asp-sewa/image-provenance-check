@@ -1,0 +1,20 @@
+{
+  "_comment": "Hostname suffixes used to classify Zone.Identifier ReferrerUrl/HostUrl and reverse-search trails. Edit freely; no code change needed.",
+  "stock": [
+    "gettyimages.com", "gettyimages.in", "gettyimages.co.uk", "shutterstock.com", "istockphoto.com",
+    "stock.adobe.com", "alamy.com", "depositphotos.com", "dreamstime.com", "123rf.com", "bigstockphoto.com"
+  ],
+  "news": [
+    "reuters.com", "apnews.com", "apimages.com", "afp.com", "ptinews.com", "ians.in", "aninews.in",
+    "nytimes.com", "washingtonpost.com", "bbc.co.uk", "bbc.com", "theguardian.com", "cnn.com",
+    "thehindu.com", "indianexpress.com", "hindustantimes.com", "timesofindia.indiatimes.com"
+  ],
+  "free_license": [
+    "pexels.com", "unsplash.com", "pixabay.com", "commons.wikimedia.org", "upload.wikimedia.org",
+    "openverse.org", "flickr.com", "si.edu", "nasa.gov", "loc.gov"
+  ],
+  "own_storage": [
+    "sharepoint.com", "onedrive.live.com", "workdrive.zoho.com", "workdrive.zohoexternal.com", "drive.google.com"
+  ],
+  "own_org_patterns": []
+}

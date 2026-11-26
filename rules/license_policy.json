@@ -1,0 +1,19 @@
+{
+  "_comment": "License policy. action: allow | allow_attribution | ask_it | unedited_only | deny | platform. Keys are normalised license ids.",
+  "licenses": {
+    "cc0":            {"action": "allow",             "note": "No attribution required (record it anyway)."},
+    "public-domain":  {"action": "allow",             "note": "Public domain mark/work. Record the rights statement."},
+    "cc-by":          {"action": "allow_attribution", "note": "Credit the author: Title, Author, Source link, License."},
+    "cc-by-sa":       {"action": "ask_it",            "note": "Edited versions must carry the same license. Ask IT first."},
+    "cc-by-nc":       {"action": "deny",              "note": "Fundraising/promotional use is not safely non-commercial."},
+    "cc-by-nc-sa":    {"action": "deny",              "note": "Non-commercial restriction."},
+    "cc-by-nd":       {"action": "unedited_only",     "note": "Use only unedited: no cropping, filters or text overlays."},
+    "cc-by-nc-nd":    {"action": "deny",              "note": "Non-commercial restriction."},
+    "pexels":         {"action": "platform",          "note": "Custom platform license. Read it; limits on identifiable people and implied endorsement."},
+    "unsplash":       {"action": "platform",          "note": "Custom platform license. Read it; limits on identifiable people and implied endorsement."},
+    "pixabay":        {"action": "platform",          "note": "Custom platform license. Read it; limits on identifiable people and implied endorsement."},
+    "paid-stock":     {"action": "platform",          "note": "Keep the license receipt and note any limits on use."},
+    "own-photo":      {"action": "platform",          "note": "Need written photographer release and consent from identifiable people."}
+  },
+  "unknown_action": "deny"
+}

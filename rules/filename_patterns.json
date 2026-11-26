@@ -1,0 +1,27 @@
+{
+  "_comment": "Regexes matched case-insensitively against the file NAME. 'block' = owned/licensed source, do not use. 'trace' = names a free platform; the license must still be verified on the original page.",
+  "block": [
+    {"id": "getty", "pattern": "gettyimages|getty[-_ ]?images|^getty[-_]", "label": "Getty Images (stock agency)"},
+    {"id": "shutterstock", "pattern": "shutterstock", "label": "Shutterstock (stock agency)"},
+    {"id": "istock", "pattern": "istock", "label": "iStock (stock agency)"},
+    {"id": "adobestock", "pattern": "adobe[-_ ]?stock|^adobestock", "label": "Adobe Stock (stock agency)"},
+    {"id": "alamy", "pattern": "alamy", "label": "Alamy (stock agency)"},
+    {"id": "depositphotos", "pattern": "depositphotos", "label": "Depositphotos (stock agency)"},
+    {"id": "dreamstime", "pattern": "dreamstime", "label": "Dreamstime (stock agency)"},
+    {"id": "123rf", "pattern": "123rf", "label": "123RF (stock agency)"},
+    {"id": "bigstock", "pattern": "bigstock", "label": "Bigstock (stock agency)"},
+    {"id": "stockphoto", "pattern": "stock[-_ ]photo", "label": "Name says stock photo"},
+    {"id": "reuters", "pattern": "reuters", "label": "Reuters (news agency)"},
+    {"id": "ap", "pattern": "(^|[-_ ])ap[-_ ]?(photo|images|file)|apimages|(^|[-_ ])ap\\d{6,}", "label": "Associated Press (news agency)"},
+    {"id": "afp", "pattern": "(^|[-_ ])afp([-_ .]|$)", "label": "AFP (news agency)"},
+    {"id": "pti", "pattern": "(^|[-_ ])(pti|ians|ani)([-_ .]|$)", "label": "Indian news agency credit"},
+    {"id": "credit", "pattern": "photo[-_ ]?(by|credit|courtesy)|credit[-_ ]|courtesy[-_ ]", "label": "Name carries a photo credit"}
+  ],
+  "trace": [
+    {"id": "pexels", "pattern": "pexels", "label": "Pexels (free platform; verify license)"},
+    {"id": "unsplash", "pattern": "unsplash", "label": "Unsplash (free platform; verify license)"},
+    {"id": "pixabay", "pattern": "pixabay", "label": "Pixabay (free platform; verify license)"},
+    {"id": "wikimedia", "pattern": "wikimedia|commons", "label": "Wikimedia Commons (verify file page)"},
+    {"id": "flickr", "pattern": "flickr", "label": "Flickr (verify exact license)"}
+  ]
+}

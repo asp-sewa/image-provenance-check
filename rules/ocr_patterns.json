@@ -1,0 +1,24 @@
+{
+  "_comment": "Regexes matched case-insensitively against OCR text from the image. Any hit is a visible credit/watermark = block.",
+  "patterns": [
+    "©",
+    "\\(c\\)\\s*\\d{0,4}",
+    "copyright",
+    "photo\\s*(by|credit|:)",
+    "credit\\s*:",
+    "courtesy",
+    "getty\\s*images",
+    "shutterstock",
+    "istock",
+    "adobe\\s*stock",
+    "alamy",
+    "depositphotos",
+    "dreamstime",
+    "123rf",
+    "reuters",
+    "associated\\s*press",
+    "\\bAFP\\b",
+    "\\bPTI\\b",
+    "all\\s*rights\\s*reserved"
+  ]
+}
